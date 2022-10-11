@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | ws -l
+ls -lR | grep ^d | wc -lcase 
